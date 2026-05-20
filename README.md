@@ -19,7 +19,7 @@ Performs data cleansing, standardization, normalization, and enrichment processe
 **Gold Layer**
 
 Provides business-ready data modeled into star schema and aggregated tables for reporting, BI dashboards, ad-hoc SQL queries, and machine learning.
+
 ### Data Flow
-```text
+
 Source Systems → Bronze → Silver → Gold → Analytics & Reporting
-```
