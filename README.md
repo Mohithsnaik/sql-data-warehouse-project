@@ -1,22 +1,28 @@
-# sql-data-warehouse-project
-Building a modern data warehouse with SQL Server, including ETL Processes, data modeling and analytics.
+<p align="center">
+  <span style="font-size:32px;"><b>sql-data-warehouse-project</b></span>
+</p>
 
-## Data Architecture 
+Building a modern data warehouse with SQL Server, including ETL processes, data modeling, and analytics.
 
-The project follows the **Medallion Architecture** approach with **Bronze, Silver, and Gold** layers.
+<br>
 
-**Bronze Layer**
+<b style="font-size:28px;">Data Architecture</b>
+
+<br><br>
+
+<b>Bronze Layer</b>
 
 Stores raw data as-is from source systems.  
 Data is ingested from CSV files into SQL Server with minimal or no transformations.
 
-**Silver Layer**
+<br>
+
+<b>Silver Layer</b>
 
 Performs data cleansing, standardization, normalization, and enrichment processes to prepare structured data for analytics.
 
-**Gold Layer**
+<br>
+
+<b>Gold Layer</b>
 
 Provides business-ready data modeled into star schema and aggregated tables for reporting, BI dashboards, ad-hoc SQL queries, and machine learning.
-### Data Flow
-```text
-Source Systems → Bronze → Silver → Gold → Analytics & Reporting
