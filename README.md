@@ -1,7 +1,7 @@
 # sql-data-warehouse-project
 Building a modern data warehouse with SQL Server, including ETL Processes, data modeling and analytics.
 
-** Data Architecture **
+## Data Architecture 
 
 The project follows the **Medallion Architecture** approach with **Bronze, Silver, and Gold** layers.
 
